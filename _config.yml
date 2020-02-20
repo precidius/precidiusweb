@@ -1,0 +1,72 @@
+﻿baseurl: "" 
+url: "https://PrecidiusCoin.com"
+
+# Do not copy these files to the build folder
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - scripts
+ - Rakefile
+ - README.md
+ - .bundle
+ - vendor
+
+gems:
+ - jekyll-multiple-languages-plugin
+
+
+# Localization config
+languages: ["en", "af", "at", "cz", "de", "es", "fr", "it", "kr", "hu", "nl", "pt-br", "ru", "tr", "zh",]
+# languages: ["en", "af", "at", "cz", "de", "es", "fr", "it", "kr", "hu", "nl", "pt-br", "ru", "tr", "zh",] # enable during development to see text keys at /dev/
+
+language_names:
+  af:
+    short: af
+    full: Afrikaans
+  at:
+    short: at
+    full: Öster. Deutsch
+  cz:
+    short: cz
+    full: Czech
+  de:
+    short: de
+    full: Deutsch
+  en:
+    short: en
+    full: English
+  es:
+    short: es
+    full: Español
+  fr:
+    short: fr
+    full: Français
+  it:
+    short: it
+    full: Italiano
+  kr:
+    short: kr
+    full: Korean
+  hu:
+    short: hu
+    full: Magyar
+  nl:
+    short: nl
+    full: Nederlands
+  pt-br:
+    short: pt-br
+    full: Portuguese
+  ru:
+    short: рус
+    full: Русский
+  tr:
+    short: tr
+    full: Turkish
+  zh:
+    short: 中文
+    full: 中文
+  dev:
+    short: dev
+    full: Development
+
+exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts", "paper-precidius"]
